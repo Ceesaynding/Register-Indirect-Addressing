@@ -1,0 +1,26 @@
+MOV AX, 0250H
+MOV DS, AX   
+MOV BX, 0
+
+MOV SI, 07h 
+MOV [BX], SI   
+
+MOV BX, 1
+MOV SI, 0Eh
+MOV [BX],SI
+
+MOV BX, 2
+MOV SI,15h
+MOV [BX],SI
+
+MOV BX, 3
+MOV SI, 1Ch
+MOV [BX],SI
+
+MOV BX, 4
+MOV SI, 23h
+MOV [BX],SI
+
+MOV BX, 5
+MOV SI, 2Ah
+MOV [BX],SI
